@@ -6,12 +6,18 @@
         "macos": "2.208",
         "ios": "2.208"
     },
-    "id": "tu.nombre.nocopyrightmod",
-    "name": "No Copyright Mod",
+    "id": "dehiner.nocopyright",
+    "name": "No Copyright Geode Mod",
     "version": "1.0.0",
-    "developer": "TuNombre",
-    "description": "Reemplaza canciones con copyright por versiones de piano usando Jukebox.",
+    "developer": "dehiner6-alt",
+    "description": "Reemplaza automáticamente canciones con copyright por versiones alternativas usando la API de Jukebox.",
     "dependencies": {
         "jukebox.api": ">=1.0.0"
+    },
+    "resources": {
+        "files": [
+            "resources/sfh-index.min.json",
+            "resources/auto-nong-index.min.json"
+        ]
     }
 }
